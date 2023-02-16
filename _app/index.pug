@@ -24,7 +24,7 @@ mixin b(cl, href, p, target, id)
 		a.button(class=cl href!=href target=target id=id)=p
 mixin gt(cl, h3)
 	h3.general-title(class=cl)=h3
-mixin ims(cl, src, alt)
+mixin imgs(cl, src, alt)
 	img(class=cl src=path+src alt=alt)
 
 
@@ -46,5 +46,5 @@ html(lang="ru")
 		include pug/base/2-footer
 		include pug/main/8-modal
 		include pug/base/3-scripts
-		include pug/scripts/chat
+		//- include pug/scripts/chat
 		include pug/scripts/body_bottom_scripts
