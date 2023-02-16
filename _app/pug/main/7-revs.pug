@@ -1,0 +1,6 @@
+section#revs
+	.container
+		+gt('','Отзывы')
+		.revs-slider-text
+			each n in [2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,1]
+				a.text-rev-link.text-rev-link-modal(href=path+"img/revs/text-"+n+".jpg"): img(src=path+"img/revs/text-"+n+".jpg", alt="Отзыв "+n).text-rev-img
