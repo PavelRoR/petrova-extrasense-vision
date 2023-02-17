@@ -1,0 +1,41 @@
+#bullets
+	padding 90px 0
+.general-img-bullets
+	left -350px
+	top 250px
+.bullet
+	width 100%
+	max-width 300px
+	margin 0 auto 50px
+	text-align center
+	&-img
+		display inline-block
+		margin 0 auto 30px
+.bullet-subtitle
+	width 56%
+	margin 90px 0 120px auto
+	position relative
+	padding-left: 50px
+	&:before
+		content: ''
+		display block
+		position absolute
+		height 100%
+		width 26px
+		top 0
+		left 0
+		background: #F6623B;
+		transform: matrix(-1, 0, 0, 1, 0, 0);
+	&:after
+		content: ''
+		display block
+		position absolute
+		width 1000px
+		height: 2px
+		background-color: #F83245
+		left -1000px
+		bottom: 10px
+	h4
+		font-family: G
+		font-size: 48px
+		font-weight: bold

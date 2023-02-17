@@ -47,6 +47,7 @@ body {
 }
 .wrapper {
   overflow: hidden;
+  position: relative;
 }
 a {
   color: #000;
@@ -173,8 +174,35 @@ footer {
   position: absolute;
   z-index: 0;
 }
-.general-text {
-  margin-bottom: 20px;
+.play-button {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: calc(50% - 80px);
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.play-button:after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 0 auto;
+  left: 67px;
+  top: calc(50% - 20px);
+  border: 20px solid transparent;
+  border-left: 30px solid #000;
+}
+.play-button:hover {
+  opacity: 1;
 }
 header {
   overflow: hidden;

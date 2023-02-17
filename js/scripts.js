@@ -1,2 +1,10 @@
-$(document).ready((function(){$("a[href='#prices']").click((function(t){t.preventDefault();var e=$(this).attr("href"),i=$(e).offset().top;$("body,html").animate({scrollTop:i},1500)})),$(".more-button").magnificPopup({type:"inline",midClick:!0,mainClass:"mfp-fade"})}));
-//# sourceMappingURL=scripts.js.map
+$(document).ready(function() {
+     // модалка
+    //  $('.button-up').fancybox();
+    //  Видео
+    $(".video-wrapper-video .play-button").click(function () {
+        var a = $(this).parent().attr("data-youtube");
+        $(this).parent().html('<iframe src="https://www.youtube.com/embed/' + a + '?showinfo=0&rel=0&autoplay=1&mute=1&modestbranding=1" allowfullscreen></iframe>')
+    });
+/*Конец документа*/
+});
