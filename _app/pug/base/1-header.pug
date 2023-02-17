@@ -1,6 +1,14 @@
-header
-	a(href="https://mastervision.su", target="_blank")
-		img.header-logo(src=path+"img/images/logo.png", alt="Логотип")
-	.contacts
-		a.contact.contact-tel(href='tel:+79912220713' target='_blank') +7 (991) 222-07-13
-		a.contact.contact-email(href="mailto:info@mastervision.su" target="_blank") info@mastervision.su
+mixin hdr(cl, img)
+	header(class=cl)
+		a(href="https://mastervision.su", target="_blank")
+			img.header-logo(src=path+img, alt="Логотип")
+		.contacts
+			a.contact.contact-tel(href='tel:+79912220713' target='_blank') +7 (991) 222-07-13
+			a.contact.contact-email(href="mailto:info@mastervision.su" target="_blank") info@mastervision.su
+
+//- if hw
+//- 	+hdr('', 'img/images/logo.png')
+if hb
+	+hdr('header-black', 'img/images/logo-2.png')
+else
+	+hdr('', 'img/images/logo.png')

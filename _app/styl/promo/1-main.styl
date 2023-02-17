@@ -1,0 +1,59 @@
+#main
+	padding 0 0 100px
+	min-height calc(100vh - 57px)
+	background:  linear-gradient(180deg, rgba(255, 245, 240, 0) 0%, rgba(#916F4F, .2) 100%, #916F4F 1000%);
+	// background: url(../img/backs/bigback.png) no-repeat top center
+	// background-size: cover
+	@media screen and (max-width 991px)
+		text-align center
+.main
+	&-title
+		font-size: 46px
+		font-family: G
+		font-weight: bold
+		color #F83245
+		line-height: 1
+		margin-bottom: 20px
+		@media screen and (max-width 991px)
+			font-size: 38px
+		@media screen and (max-width 560px)
+			font-size: 32px
+	&-subtitle
+		font-family: G
+		font-size: 36px
+		font-weight: bold
+		margin 30px 0
+		@media screen and (max-width 1199px)
+			font-size: 28px
+			margin: 20px 0
+		@media screen and (max-width 560px)
+			font-size: 22px
+	&-text
+		line-height: 140%
+		margin-bottom: 20px
+		font-size: 22px
+		span
+			display inline-block
+			font-weight: bold
+			color #F83245
+
+		@media screen and (max-width 1199px)
+			font-size: 20px
+		@media screen and (max-width 767px)
+			margin-bottom: 20px
+		@media screen and (max-width 386px)
+			margin-bottom 15px
+			font-size: 18px
+	&-img
+		display block
+		margin 0 auto
+		width 500px
+		@media screen and (max-width 991px)
+			width 100%
+			max-width 500px
+.button-main
+	@media screen and (max-width 991px)
+		margin 0 auto
+@media screen and (min-width 2295px)
+	header
+		margin-bottom: 120px

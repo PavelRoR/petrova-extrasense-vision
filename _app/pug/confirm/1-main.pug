@@ -1,0 +1,25 @@
+section#main
+	.container
+		include ../base/1-header
+		+imgs('general-img general-img-main', 'img/images/decor-1.png', 'Декор')
+		.content
+			h1.main-title
+				span УПС!
+				br
+				| Я НЕ МОГУ ОТПРАВИТЬ ССЫЛКУ НА&nbsp;
+				span МАСТЕР-КЛАСС, 
+				br
+				| ТЕБЕ НУЖНО 
+				span ПОДТВЕРДИТЬ СВОЮ ПОЧТУ.
+			p.main-text Перейди в&nbsp;свою почту
+			.posts
+				a.post-link(href="https://mail.yandex.ru/" target="_blank")
+					img.post-icon(src=path+"img/icons/yandex.png" alt="Яндекс")
+				a.post-link(href="https://e.mail.ru/messages/inbox/" target="_blank")
+					img.post-icon(src=path+"img/icons/mailru.png" alt="Mailru")
+				a.post-link(href="https://mail.google.com/mail" target="_blank")
+					img.post-icon(src=path+"img/icons/gmail.png" alt="Gmail")
+				a.post-link(href="https://mail.yahoo.com/" target="_blank")
+					img.post-icon(src=path+"img/icons/yahoo.png" alt="Yahoo")
+			h2.main-subtitle Не нашли письмо? Проверьте папку 
+				span промоакции, оповещения или спам

@@ -4,20 +4,45 @@ header
 	margin-bottom: 40px
 	position relative
 	z-index 60
+	@media screen and (max-width 560px)
+		padding 15px 0
+		margin-bottom: 25px
 .header-logo
 	float left
+	@media screen and (max-width 620px)
+		float: none
+		display block
+		width 100%
+		max-width 180px
+		margin 0 auto 5px
+
 .contacts
 	float: right
 	text-align right
 	line-height: 15px
+	@media screen and (max-width 620px)
+		float: none
+		text-align center
 .contact
 	font-size: 16px
 	margin-right: 20px
+	color #fff
+	@media screen and (max-width 620px)
+		display inline-block
+		font-size: 12px
+		margin: 5px
 	&:focus
 		text-decoration none
-		color #000
+		color #fff
 	&:hover
 		text-decoration underline
-		color #000
+		color #fff
 	&:last-of-type
 		margin-right: 0
+.header-black
+	.contact
+			color #000
+		&:focus
+			color #000
+		&:hover
+			color #000
