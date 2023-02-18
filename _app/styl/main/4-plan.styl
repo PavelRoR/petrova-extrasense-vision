@@ -1,8 +1,46 @@
+#plan
+	padding 90px 0
+	position relative
 .general-img-plan-1
-	// width 100%
-	// max-width 2280px
-	width 2280px
+	width 	1920px
+	display block
 	margin 0 auto
-	left 0
+	left calc(50% - 960px)
 	right 0
-	top 150px
+	top -150px
+.general-img-plan-2
+	top -400px
+	right -300px
+.bonus
+	margin 50px 0 70px
+	position relative
+	display flex
+	align-items: flex-start
+	justify-content: space-between
+	flex-direction: row
+	flex-wrap: nowrap
+	&:before
+		content: ''
+		display block
+		position absolute
+		width 500px
+		height: 2px
+		background-color: #F83245
+		left -330px
+		bottom: 30px
+	&-title
+		font-family: G
+		font-size: 46px
+		font-weight: bold
+		color #F83245
+		line-height: 1
+	&-text
+		color #fff
+		padding-left: 45px
+		position relative
+		margin-left: 45px
+		border-left: 20px solid #F6623B;
+		font-size: 20px
+		span
+			font-weight: bold
+			text-transform uppercase

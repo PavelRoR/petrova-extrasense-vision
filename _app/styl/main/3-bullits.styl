@@ -4,13 +4,22 @@
 	left -350px
 	top 250px
 .bullet
-	width 100%
-	max-width 300px
+	&s
+		display flex
+		align-items: flex-start
+		justify-content: space-between
+		flex-direction: row
+		flex-wrap: wrap
+	flex: 1 1 390px
+	// width 100%
+	// max-width 390px
 	margin 0 auto 50px
 	text-align center
 	&-img
 		display inline-block
 		margin 0 auto 30px
+	&-text
+		font-size: 20px
 .bullet-subtitle
 	width 56%
 	margin 90px 0 120px auto

@@ -1,6 +1,14 @@
 section#revs
+	+imgs('revs-bg', 'img/backs/revs.png', 'Фон блока')
 	.container
-		+gt('','Отзывы')
-		//- .revs-slider-text
-		//- 	each n in [2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,1]
-		//- 		a.text-rev-link.text-rev-link-modal(href=path+"img/revs/text-"+n+".jpg"): img(src=path+"img/revs/text-"+n+".jpg", alt="Отзыв "+n).text-rev-img
+		.content
+			+gt('general-title general-title-revs', 'Отзывы')
+			.revs-slider
+				each yt, n in {1: 'ketPqw7PtFQ', 2: 'Qrv2gD-FXvY', 3: '94fbVQZn934', 4: 'FI_ytVFZVJQ', 5: 'lrcmsBjDBcA', 6: 'AwGIrESzORE', 7: 'gUecAYBWPi4', 8: 'F65HnorJ9Xs', 9: 'StcMvdDgxf8', 10: 'dVyzbX2VfnY'}
+					div
+						.video-wrapper.video-wrapper-revs(data-youtube=yt data-img=path+"img/revs/video-"+n+".jpg")
+							img(src=path+"img/revs/video-"+n+".jpg", alt="Отзыв "+n)
+							//- .play-button.play-button-rev
+			.revs-slider-text
+				each n in [1,2,3,4,5,6,7,8,9,10,11,12]
+					a.text-rev-link.text-rev-link-modal(href=path+"img/revs/text-"+n+".jpg"): img(src=path+"img/revs/text-"+n+".jpg", alt="Отзыв "+n).text-rev-img

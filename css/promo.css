@@ -110,7 +110,7 @@ footer {
   height: 100%;
   display: block;
   background-color: #000;
-  border-radius: 0;
+  border-radius: 5px;
   border: 0;
   top: 0;
   left: 0;
@@ -149,7 +149,7 @@ footer {
   background-image: linear-gradient(0deg, #f83245 0%, #f6623b 100%);
 }
 .general-title {
-  font-size: 35px;
+  font-size: 40px;
   font-family: 'Gropled', sans-serif;
   font-weight: bold;
   margin-bottom: 50px;
@@ -161,6 +161,7 @@ footer {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
+  font-size: 20px;
   border-bottom: 3px solid rgba(248,50,69,0.41);
   background-image: url("../img/icons/rect.png");
   background-position: top 3px left;
@@ -203,6 +204,32 @@ footer {
 }
 .play-button:hover {
   opacity: 1;
+}
+.play-button.play-button-rev {
+  width: 72px;
+  height: 72px;
+  top: calc(50% - 36px);
+}
+@media screen and (max-width: 560px) {
+  .play-button.play-button-rev {
+    width: 50px;
+    height: 50px;
+    top: calc(50% - 25px);
+  }
+}
+.play-button.play-button-rev:after {
+  width: 20px;
+  height: 20px;
+  border: 10px solid transparent;
+  border-left: 15px solid #000;
+  top: 26px;
+  left: 31px;
+}
+@media screen and (max-width: 560px) {
+  .play-button.play-button-rev:after {
+    top: 16px;
+    left: 21px;
+  }
 }
 header {
   overflow: hidden;
