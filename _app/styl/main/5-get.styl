@@ -1,8 +1,21 @@
 #get
 	padding 90px 0
+	@media screen and (max-width 650px)
+		padding 60px 0
+	@media screen and (max-width 485px)
+		padding 40px 0
 .general-img-get
 	top -300px
 	right -300px
+	@media screen and (max-width 991px)
+		width 500px
+		right -250px
+	@media screen and (max-width 650px)
+		width 350px
+		top -200px
+		right -190px
+	@media screen and (max-width 485px)
+		top -100px
 .get-item
 	&s
 		display flex
@@ -10,11 +23,26 @@
 		justify-content: space-between
 		flex-direction: row
 		flex-wrap: wrap
+		@media screen and (max-width 991px)
+			flex-direction: column
+	flex 0 0 49%
 	padding 30px 40px
 	border: 3px solid #F83245;
 	border-radius: 5px;
 	color #fff
 	margin-bottom: 40px
-	height 177px
+	min-height 177px
+	@media screen and (max-width 991px)
+		min-height: 1px
+		flex: 0 0 100%
+	@media screen and (max-width 650px)
+		padding 30px 20px
+		margin-bottom: 25px
+	@media screen and (max-width 386px)
+		padding 20px 15px
 .button-get
 	margin-top: 70px
+	@media screen and (max-width 650px)
+		margin-top: 50px
+	@media screen and (max-width 485px)
+		margin-top: 30px

@@ -112,6 +112,13 @@ $(document).ready(function() {
             }
         }]
     });
+    $('.text-rev-link-modal').magnificPopup({
+        type: 'image',
+        mainClass: 'mfp-fade',
+        gallery: {
+            enabled: true
+        }
+    });
     $('.slick-dots').wrap('<div class="container container-revs">')
     // $(".video-wrapper-video .play-button").click(function () {
     //     var a = $(this).parent().attr("data-youtube");

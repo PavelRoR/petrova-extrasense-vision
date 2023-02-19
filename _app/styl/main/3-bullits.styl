@@ -1,8 +1,19 @@
 #bullets
 	padding 90px 0
+	@media screen and (max-width 650px)
+		padding 60px 0
+	@media screen and (max-width 485px)
+		padding 40px 0
 .general-img-bullets
 	left -350px
 	top 250px
+	@media screen and (max-width 650px)
+		left -300px
+	@media screen and (max-width 485px)
+		width 300px
+		height: 300px
+		left -220px
+		top 350px
 .bullet
 	&s
 		display flex
@@ -18,13 +29,28 @@
 	&-img
 		display inline-block
 		margin 0 auto 30px
+		@media screen and (max-width 485px)
+			margin 0 auto 20px
 	&-text
 		font-size: 20px
+		@media screen and (max-width 485px)
+			font-size: 18px
 .bullet-subtitle
 	width 56%
 	margin 90px 0 120px auto
 	position relative
 	padding-left: 50px
+	@media screen and (max-width 1199px)
+		width 95%
+	@media screen and (max-width 991px)
+		margin 50px 0 90px auto
+	@media screen and (max-width 650px)
+		margin 40px 0 70px auto
+		padding-left: 30px
+	@media screen and (max-width 485px)
+		width 100%
+		margin 20px 0 50px auto
+		padding-left: 20px
 	&:before
 		content: ''
 		display block
@@ -35,6 +61,10 @@
 		left 0
 		background: #F6623B;
 		transform: matrix(-1, 0, 0, 1, 0, 0);
+		@media screen and (max-width 650px)
+			width 16px
+		@media screen and (max-width 485px)
+			width 10px
 	&:after
 		content: ''
 		display block
@@ -48,3 +78,9 @@
 		font-family: G
 		font-size: 48px
 		font-weight: bold
+		@media screen and (max-width 991px)
+			font-size: 36px
+		@media screen and (max-width 650px)
+			font-size: 30px
+		@media screen and (max-width 485px)
+			font-size: 26px

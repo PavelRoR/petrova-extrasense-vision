@@ -97,6 +97,9 @@ footer
 	font-weight: bold
 	margin-bottom: 50px
 	color #F83245
+	@media screen and (max-width 485px)
+		font-size: 32px
+		margin-bottom: 35px
 .general-list
 	li
 		list-style: none
@@ -109,6 +112,13 @@ footer
 		background-image: url(../img/icons/rect.png)
 		background-position: top 3px left
 		background-repeat: no-repeat
+		@media screen and (max-width 485px)
+			padding-left: 20px
+			margin-bottom: 10px
+			padding-bottom: 10px
+			font-size: 18px
+			background-size: 10px
+			background-position: top 7px left
 		&:last-child
 			margin-bottom: 0
 			border-bottom: 0
@@ -128,6 +138,10 @@ footer
 	top calc(50% - 80px)
 	cursor pointer
 	transition: all .4s ease
+	@media screen and (max-width 650px)
+		width 80px
+		height: 80px
+		top calc(50% - 40px)
 	&:after
 		content: ''
 		display block
@@ -139,13 +153,20 @@ footer
 		top calc(50% - 20px)
 		border: 20px solid transparent
 		border-left: 30px solid #000
+		@media screen and (max-width 650px)
+			width 20px
+			height: 20px
+			left 35px
+			top calc(50% - 10px)
+			border: 10px solid transparent
+			border-left: 15px solid #000
 	&:hover
 		opacity 1
 	&&-rev
 		width 72px
 		height: 72px
 		top calc(50% - 36px)
-		@media screen and (max-width 560px)
+		@media screen and (max-width 650px)
 			width 50px
 			height: 50px
 			top calc(50% - 25px)
@@ -156,6 +177,6 @@ footer
 			border-left: 15px solid #000
 			top 26px
 			left 31px
-			@media screen and (max-width 560px)
+			@media screen and (max-width 650px)
 				top 16px
 				left 21px
