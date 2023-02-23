@@ -1,0 +1,193 @@
+.white-popup
+	position: relative;
+	// background:  linear-gradient(180deg, rgba(255, 245, 240, 0) 0%, rgba(#916F4F, .2) 100%);
+	background: #F7F0EC url(../img/images/decor-1.png) no-repeat center left -55px
+	border-radius 5px
+	padding: 40px;
+	width: 100%;
+	max-width: 650px;
+	margin: 20px auto;
+	overflow hidden
+	@media screen and (max-width 560px)
+		padding 30px 20px 20px
+		background-size: 180px
+		// background-position: center left -100px
+	@media screen and (max-width 386px)
+		padding 30px 15px 15px
+.mfp-close
+	top 10px
+	right 10px
+	@media screen and (max-width 386px)
+		top 5px
+		right 5px
+	&:active
+		top 10px
+		@media screen and (max-width 386px)
+			top 5px
+.mfp-fade.mfp-bg
+	opacity: 0;
+	transition: all 0.5s ease-out;
+/* overlay animate in */
+.mfp-fade.mfp-bg.mfp-ready
+	opacity: 0.95;
+/* overlay animate out */
+.mfp-fade.mfp-bg.mfp-removing
+	opacity: 0;
+/* content at start */
+.mfp-fade.mfp-wrap .mfp-content
+	opacity: 0;
+	transition: all 0.5s ease-out;
+/* content animate it */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content
+	opacity: 1;
+/* content animate out */
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content
+	opacity: 0;
+.mfp-bg
+	background:  #573627
+	// background:  linear-gradient(180deg, rgba(255, 245, 240, 0) 0%, rgba(#916F4F, .6) 10%, #916F4F 100%);
+.modal-title
+	font-family: G
+	font-size: 36px
+	font-weight: bold
+	text-transform uppercase
+	margin-bottom: 30px
+	text-align center
+	@media screen and (max-width 650px)
+		font-size: 26px
+		margin-bottom: 20px
+.form-modal
+	width 100%
+	max-width 390px
+	margin 0 auto
+.input
+	background-color #fff
+	border: 3px solid #213C52
+	border-radius: 5px
+	text-align center
+	padding 25px 20px
+	font-size: 16px
+	color #706E6E
+	display block
+	width 100%
+	max-width 390px
+	margin-bottom: 24px
+	@media screen and (max-width 560px)
+		padding 20px 20px
+		margin-bottom: 16px
+::-webkit-input-placeholder
+	color:#706E6E
+	opacity:1;
+::-moz-placeholder
+	color:#706E6E
+	opacity:1;
+:-moz-placeholder
+	color:#706E6E
+	opacity:1;
+:-ms-input-placeholder
+	color:#706E6E
+	opacity:1;
+@-webkit-keyframes autofill
+	to
+		font-size: 16px
+		color: #706E6E;
+		background-color: #FFF
+input:-webkit-autofill
+	-webkit-animation-name: autofill;
+	-webkit-animation-fill-mode: both;
+.input:active
+input:-internal-autofill-selected
+	background-color: #FFF !important
+.alert-message
+	clear both
+	display: none;
+	font-size: 16px;
+	padding-top: 10px;
+	color: #f00
+	text-align: center
+	font-weight: bold
+	line-height: 1
+.checking
+	display: table;
+	width 100%
+	max-width 386px
+	margin: 5px auto 0
+	text-align: left
+@keyframes pulse
+	0%
+		box-shadow: 0 0 0 0 rgba(red, .12)
+	100%
+		box-shadow: 0 0 15px 10px rgba(red, .12)
+.checking .check-label
+	line-height: 24px;
+	cursor: pointer;
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0 0 0 30px;
+	text-align: left;
+	font-size: 10px
+	font-weight: 300
+	color #4E4C4C
+	@media screen and (max-width 440px)
+		line-height: 13px
+.checking .check-label a
+	text-decoration: none
+	border-bottom: 1px dashed
+	display: inline
+	color #4E4C4C
+	&:focus
+		border-bottom: 1px dashed
+		color #4E4C4C
+	&:hover
+		border-bottom: none
+		text-decoration: none
+		color #4E4C4C
+.checking .check-label:before
+	content: '';
+	background-color: red;
+	position: absolute;
+	left: 0;
+	top: 3px;
+	width: 17px;
+	height: 17px;
+	border none
+	border-radius: 5px
+	animation: pulse
+	animation-duration: .7s
+	animation-iteration-count: infinite
+	animation-timing-function: ease-out;
+.checking .check-label:after
+	content: '';
+	position: absolute;
+	left: 5px;
+	top: -10px;
+	width: 8px;
+	height: 14px;
+	background-color: transparent;
+	opacity: 0;
+	border-bottom: 2px solid #fff;
+	border-right: 2px solid #fff;
+	-webkit-transform: rotate(41deg);
+	-ms-transform: rotate(41deg);
+	transform: rotate(41deg);
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+.check
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	width: 0;
+	height 0;
+	border: 0;
+	left -99999px;
+.check:checked + .check-label:before
+	background-color: #000
+	animation: none
+.check:checked + .check-label:after
+	opacity: 1;
+	top: 3px;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;

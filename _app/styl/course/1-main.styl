@@ -1,0 +1,135 @@
+.big-wrapper
+	background:  linear-gradient(179.84deg, rgba(255, 245, 240, 0) 11.22%, #916F4F 48.67%, #250505 105.83%);
+#main
+	padding 0 0 400px
+	background url(../img/backs/main.png) no-repeat bottom center
+	background-size: cover
+	color #fff
+	@media screen and (max-width 991px)
+		padding: 0 0 300px
+	@media screen and (max-width 650px)
+		padding 0 0 200px
+.main
+	&-pre
+		font-size: 20px
+		margin-bottom: 30px
+		font-weight: bold
+		color #F83245
+	&-title
+		position relative
+		font-family: G
+		font-weight: bold
+		font-size: 90px
+		line-height: 1
+		padding-left: 40px
+		margin-bottom:90px
+		@media screen and (max-width 991px)
+			font-size: 70px
+		@media screen and (max-width 690px)
+			font-size: 50px
+			padding-left: 30px
+		@media screen and (max-width 520px)
+			font-size: 40px
+			padding-left: 20px
+		@media screen and (max-width 420px)
+			font-size: 28px
+			padding-left: 10px
+		&:before
+			content: ''
+			display block
+			position absolute
+			height 100%
+			width 10px
+			background linear-gradient(180deg, #F83245 0%, #F6623B 100%);
+			top 0
+			left 0
+			@media screen and (max-width 650px)
+				width 5px
+	&-subtitle
+		font-size: 36px
+		margin 55px 0
+		width 100%
+		max-width 700px
+		@media screen and (max-width 991px)
+			font-size: 30px
+		@media screen and (max-width 650px)
+			font-size: 26px
+			margin 35px 0 55px
+		@media screen and (max-width 485px)
+			font-size: 20px
+		@media screen and (max-width 386px)
+			margin 25px 0 45px
+	&-date
+		position absolute
+		top 35%
+		right 0
+		@media screen and (max-width 991px)
+			position: static
+			margin 0 0 75px
+		&-day
+			p
+				font-family: G
+				font-size: 170px
+				line-height: 0.5
+				position relative
+				@media screen and (max-width 991px)
+					font-size: 100px
+				@media screen and (max-width 650px)
+					font-size: 80px
+				span
+					margin-left: 10px
+					font-size: 36px
+					color #F83245
+					@media screen and (max-width 991px)
+						font-size: 30px
+					@media screen and (max-width 650px)
+						font-size: 26px
+					&.text
+						position: absolute;
+						color: #fff;
+						left: 88px;
+						bottom: 33px;
+		&-time
+			position relative
+			margin-top: 20px
+			&:before
+				content: ''
+				display block
+				position absolute
+				width 400px
+				height: 60px
+				top -5px
+				left -15px
+				background: #F83245
+				@media screen and (max-width 485px)
+					left -170px
+			p
+				position relative
+				z-index 20
+				font-size: 36px
+				@media screen and (max-width 991px)
+					font-size: 30px
+				@media screen and (max-width 560px)
+					font-size: 26px
+	&-author
+		position relative
+		&:before
+			content: ''
+			display block
+			position absolute
+			width 270px
+			height: 2px
+			background-color: #F83245;
+			top -20px
+			left -110px
+		&-text
+			font-size: 30px
+			@media screen and (max-width 560px)
+				font-size: 26px
+			@media screen and (max-width 485px)
+				font-size: 20px
+			span
+				display inline-block
+				color #F6623B
+.button-main
+	margin-top: 45px

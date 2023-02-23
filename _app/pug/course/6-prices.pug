@@ -1,0 +1,89 @@
+section#prices
+	.container
+		+gt('', 'Выберите свой вариант обучения')
+		.row
+			.col-md-6
+				.packet
+					.packet-head
+						h4.packet-head-title
+							small онлайн-марафон
+							| Развитие экстрасенсорных способностей
+					.packet-body
+						ul.general-list
+							li 7 онлайн-уроков
+							li телеграмм-чат
+							//- li обратная связь и&nbsp;ответы на&nbsp;все&nbsp;вопросы
+					.packet-footer
+						|
+						<?php if($now < $date){;?>
+						p.cost.cost-full Стоимость:
+							span 7 900р.
+						p.cost.cost-sale Стоимость сегодня:
+							span 5 900р.
+						+b('', 'https://shop.mv-centr.ru/?r=ordering/cart/as1&id=1594&clean=true&lg=ru', 'Оплатить 1 000р.', '_blank', 'link')
+						|
+						|<?php } else {;?>
+						p.cost.cost-full Стоимость:
+							span.unbroken 7 900р.
+						+b('', 'https://shop.mv-centr.ru/?r=ordering/cart/as1&id=1591&clean=true&lg=ru', 'Оплатить', '_blank')
+						|
+						|<?php };?>
+				|
+				<?php if($now < $date):?>
+				.prepayment
+					h4.prepayment-title При оплате 1 000р. 
+						br
+						| на счет вам зачисляются дополнительные 2 000р.
+					p.prepayment-text Таким образом, в&nbsp;счет оплаты курса у&nbsp;вас засчитывается 
+						span 3 000р.
+						br
+						| Сразу после оплаты, на&nbsp;почту вам придет счет на&nbsp;остаток суммы - 
+						span 4 900р.
+				|
+				|<?php endif;?>
+			.col-md-6
+				.packet
+					.packet-head
+						h4.packet-head-title
+							small онлайн-марафон
+							| Развитие экстрасенсорных способностей
+					.packet-body
+						ul.general-list
+							li 7 онлайн-уроков
+							li телеграмм-чат
+							//- li обратная связь и&nbsp;ответы на&nbsp;все&nbsp;вопросы
+					.packet-footer
+						|
+						<?php if($now < $date){;?>
+						p.cost.cost-full Стоимость:
+							span 7 900р.
+						p.cost.cost-sale Стоимость сегодня:
+							span 5 900р.
+						+b('', 'https://shop.mv-centr.ru/?r=ordering/cart/as1&id=1594&clean=true&lg=ru', 'Оплатить 1 000р.', '_blank', 'link')
+						|
+						|<?php } else {;?>
+						p.cost.cost-full Стоимость:
+							span.unbroken 7 900р.
+						+b('', 'https://shop.mv-centr.ru/?r=ordering/cart/as1&id=1591&clean=true&lg=ru', 'Оплатить', '_blank')
+						|
+						|<?php };?>
+				|
+				<?php if($now < $date):?>
+				.prepayment
+					h4.prepayment-title При оплате 1 000р. 
+						br
+						| на счет вам зачисляются дополнительные 2 000р.
+					p.prepayment-text Таким образом, в&nbsp;счет оплаты курса у&nbsp;вас засчитывается 
+						span 3 000р.
+						br
+						| Сразу после оплаты, на&nbsp;почту вам придет счет на&nbsp;остаток суммы - 
+						span 4 900р.
+				|
+				|<?php endif;?>
+		|
+		<?php if($now < $date):?>
+			.timer
+				h4.timer-title До конца акции:
+				.clock
+		|
+		|<?php endif;?>

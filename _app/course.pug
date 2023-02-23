@@ -1,24 +1,20 @@
--var path = '';
--var head_url = 'https://petrova.mymv.ru/extrasensorial-vision/';
+-var path = '../';
+-var head_url = 'https://petrova.mymv.ru/extrasensorial-vision/course/';
 -var head_title = 'Экстрасенсорное видение';
--var head_description = 'Онлайн мастер-класс Анастасии Петровой';
--var styles = path+'css/styles.min.css';
+-var head_description = 'Обучающий курс Анастасии Петровой';
+-var styles = path+'css/course.min.css';
 //-var fav_ap = path+'favicon.svg';
 -var fav_ico = path+'favicon.ico';
 -var fav_png = path+'favicon.png';
--var libs = path+'js/libs.min.js';
--var scripts = path+'js/scripts.min.js';
+-var libs = path+'js/course-libs.min.js';
+-var scripts = path+'js/course.min.js';
 -var noref = true;
 //-var footer_title = true;
 //-var oferta = 'https://mastervision.su/oferta.docx';
 //- -var ak = true
 -var tk = true;
 -var ah = true;
--var href = '#Modal';
--var action = 'https://shop.mv-centr.ru/?r=personal/newsletter/sub/add&id=25863&lg=ru&Contact[id_newsletter]=';
--var group = '685';
--var formId = '422';
--var formVc = '3815511205';
+-var href = '#prices';
 -var hw = true;
 
 mixin b(cl, href, p, target, id)
@@ -28,7 +24,10 @@ mixin gt(cl, h3)
 mixin imgs(cl, src, alt)
 	img(class=cl src=path+src alt=alt)
 
-
+<?php
+|	$now = strtotime('now');
+|	$date = strtotime('2023-03-02');
+|?>
 doctype html
 html(lang="ru")
 	head
@@ -37,16 +36,17 @@ html(lang="ru")
 	body
 		include pug/scripts/body_top_scripts
 		.wrapper
-			include pug/main/1-main
+			include pug/course/1-main
 			.big-wrapper
-				include pug/main/2-video
-				include pug/main/3-bullits
-				include pug/main/4-plan
-				include pug/main/5-get
+				//- include pug/main/2-video
+				include pug/course/3-bullits
+				include pug/course/4-plan
+				include pug/course/5-get
+				include pug/course/6-prices
 				include pug/main/6-author
 				include pug/main/7-revs
 		include pug/base/2-footer
-		include pug/main/8-modal
+		//- include pug/main/8-modal
 		include pug/base/3-scripts
 		//- include pug/scripts/chat
 		include pug/scripts/body_bottom_scripts
