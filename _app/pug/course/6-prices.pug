@@ -6,78 +6,73 @@ section#prices
 				.packet
 					.packet-head
 						h4.packet-head-title
-							small онлайн-марафон
-							| Развитие экстрасенсорных способностей
+							small пакет
+							| Основной
 					.packet-body
 						ul.general-list
-							li 7 онлайн-уроков
-							li телеграмм-чат
-							//- li обратная связь и&nbsp;ответы на&nbsp;все&nbsp;вопросы
+							li 8&nbsp;тематических модулей, в&nbsp;которые входят 16&nbsp;уроков
+							li домашние задания с&nbsp;проверкой кураторами и обратной связью
+							li закрытый чат курса
 					.packet-footer
 						|
 						<?php if($now < $date){;?>
 						p.cost.cost-full Стоимость:
-							span 7 900р.
+							span 55 900р.
 						p.cost.cost-sale Стоимость сегодня:
-							span 5 900р.
-						+b('', 'https://shop.mv-centr.ru/?r=ordering/cart/as1&id=1594&clean=true&lg=ru', 'Оплатить 1 000р.', '_blank', 'link')
+							span 48 900р.
+						+b('button-cost', 'https://shop.mv-centr.ru/?r=ordering/cart/as1&id=1602&clean=true&lg=ru', 'Оплатить 1 000р.', '_blank', 'link-1')
 						|
 						|<?php } else {;?>
 						p.cost.cost-full Стоимость:
-							span.unbroken 7 900р.
-						+b('', 'https://shop.mv-centr.ru/?r=ordering/cart/as1&id=1591&clean=true&lg=ru', 'Оплатить', '_blank')
+							span.unbroken 55 900р.
+						+b('button-cost', 'https://shop.mv-centr.ru/?r=ordering/cart/as1&id=1599&clean=true&lg=ru', 'Оплатить', '_blank')
 						|
 						|<?php };?>
 				|
 				<?php if($now < $date):?>
 				.prepayment
-					h4.prepayment-title При оплате 1 000р. 
+					p.prepayment-text При оплате 
+						span 1 000р. 
 						br
-						| на счет вам зачисляются дополнительные 2 000р.
-					p.prepayment-text Таким образом, в&nbsp;счет оплаты курса у&nbsp;вас засчитывается 
-						span 3 000р.
-						br
-						| Сразу после оплаты, на&nbsp;почту вам придет счет на&nbsp;остаток суммы - 
-						span 4 900р.
+						| на счет вам зачисляются дополнительные 
+						span 6 000р.
 				|
 				|<?php endif;?>
 			.col-md-6
 				.packet
 					.packet-head
 						h4.packet-head-title
-							small онлайн-марафон
-							| Развитие экстрасенсорных способностей
+							small пакет
+							| VIP
 					.packet-body
 						ul.general-list
-							li 7 онлайн-уроков
-							li телеграмм-чат
-							//- li обратная связь и&nbsp;ответы на&nbsp;все&nbsp;вопросы
+							li 8&nbsp;тематических модулей, в&nbsp;которые входят 16&nbsp;уроков
+							li домашние задания с&nbsp;проверкой лично Анастасией и обратной связью
+							li закрытый чат курса
+							li дополнительный закрытый чат с&nbsp;Анастасией
 					.packet-footer
 						|
 						<?php if($now < $date){;?>
 						p.cost.cost-full Стоимость:
-							span 7 900р.
+							span 69 900р.
 						p.cost.cost-sale Стоимость сегодня:
-							span 5 900р.
-						+b('', 'https://shop.mv-centr.ru/?r=ordering/cart/as1&id=1594&clean=true&lg=ru', 'Оплатить 1 000р.', '_blank', 'link')
+							span 62 900р.
+						+b('button-cost', 'https://shop.mv-centr.ru/?r=ordering/cart/as1&id=1606&clean=true&lg=ru', 'Оплатить 1 000р.', '_blank', 'link-2')
 						|
 						|<?php } else {;?>
 						p.cost.cost-full Стоимость:
-							span.unbroken 7 900р.
-						+b('', 'https://shop.mv-centr.ru/?r=ordering/cart/as1&id=1591&clean=true&lg=ru', 'Оплатить', '_blank')
+							span.unbroken 69 900р.
+						+b('button-cost', 'https://shop.mv-centr.ru/?r=ordering/cart/as1&id=1603&clean=true&lg=ru', 'Оплатить', '_blank')
 						|
 						|<?php };?>
 				|
 				<?php if($now < $date):?>
 				.prepayment
-					h4.prepayment-title При оплате 1 000р. 
+					p.prepayment-text При оплате 
+						span 1 000р. 
 						br
-						| на счет вам зачисляются дополнительные 2 000р.
-					p.prepayment-text Таким образом, в&nbsp;счет оплаты курса у&nbsp;вас засчитывается 
-						span 3 000р.
-						br
-						| Сразу после оплаты, на&nbsp;почту вам придет счет на&nbsp;остаток суммы - 
-						span 4 900р.
+						| на счет вам зачисляются дополнительные 
+						span 6 000р.
 				|
 				|<?php endif;?>
 		|

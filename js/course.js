@@ -7,7 +7,62 @@ $(document).ready(function() {
     $("body,html").animate({
         scrollTop: g
     }, 1500)
-});/* Таймер */
+});
+   // План
+   $('.full-plan-sider').slick({
+    autoplay: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    infinite: true,
+    dots: false,
+    speed: 300,
+    arrows: false,
+    adaptiveHeight: true,
+    asNavFor: '.full-plan-slider-titles'
+    // centerPadding: '15px',
+    // adaptiveHeight: true,
+    // centerMode: true,
+    // responsive: [{
+    //     breakpoint: 1024,
+    //     settings: {
+    //         slidesToShow: 3,
+    //     }
+    // },
+    // {
+    //     breakpoint: 385,
+    //     settings: {
+    //         slidesToShow: 1
+    //     }
+    // }
+    // ]
+});
+$('.full-plan-slider-titles').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    asNavFor: '.full-plan-sider',
+    dots: false,
+    arrows: false,
+    // centerMode: true,
+    focusOnSelect: true,
+    infinite: true,
+    // initialSlide: '2'
+    // respondTo: '',
+    // fade: true
+            responsive: [{
+        breakpoint: 481,
+        settings: {
+            slidesToShow: 3,
+        }
+    },
+    {
+        breakpoint: 360,
+        settings: {
+            slidesToShow: 2
+        }
+    }
+    ]
+  });
+/* Таймер */
 var clock;
 var futureDate = new Date("March 02, 2023 00:00 UTC+3");
 var currentDate = new Date();

@@ -86,21 +86,187 @@
           <div class="container">
             <div class="content"><img class="general-img general-img-plan-2" src="../img/images/decor-3.png" alt="Декор"/>
               <h3 class="general-title">Программа мастер-класса</h3>
-              <ul class="general-list">
-                <li>Что такое экстрасенсорика и чем она отличается от магии.</li>
-                <li>Зачем развивать экстрасенсорику.</li>
-                <li>Какую силу дают развитые экстрасенсорные способности.</li>
-                <li>Как это может вам пригодиться в жизни.</li>
-                <li>Почему развитые способности ясно видеть, ясно слышать, ясно знать являются навыками нового времени.</li>
-                <li>Как изменится мир и человеческое восприятие в ближайшие 5 лет. Прогноз на ближайшие 5 лет. Что ждет человечество в ближайшие 5 лет.</li>
-                <li>Как мы будем понимать друг друга в будущем, не говоря ни слова.</li>
-                <li>Практика: Путешествие в будущее.</li>
-              </ul>
-              <div class="bonus">
-                <h5 class="bonus-title">Бонус</h5>
-                <p class="bonus-text"><span>Как защититься от энергетических вампиров? </span>На бонусе мы рассмотрим виды вампирических воздействий, и как происходит отбор энергии. Рассмотрим классификацию вампиров, и как их распознать, чтобы уберечь свою энергию и не стать жертвой. Поставим защиту, и вы научитесь ее применять для себя, своих близких, и даже клиентов, если вы работаете с людьми в области помогающих профессий.</p>
-              </div><a class="button" href="#prices">Иду на мастер-класс</a>
             </div>
+          </div>
+          <div class="full-plan-slider-titles">
+            <h3 class="full-plan-slider-title">Модуль1</h3>
+            <h3 class="full-plan-slider-title">Модуль2</h3>
+            <h3 class="full-plan-slider-title">Модуль3</h3>
+            <h3 class="full-plan-slider-title">Модуль4</h3>
+            <h3 class="full-plan-slider-title">Модуль5</h3>
+            <h3 class="full-plan-slider-title">Модуль6</h3>
+            <h3 class="full-plan-slider-title">Модуль7</h3>
+            <h3 class="full-plan-slider-title">Модуль8</h3>
+          </div>
+          <div class="container">
+            <div class="full-plan-sider">
+              <div class="module">
+                <h4 class="module-title">Введение в экстрасенсорное видение</h4>
+                <h5 class="lesson-number">Урок 1</h5>
+                <ul class="general-list">
+                  <li>Что такое экстрасенсорика и магия</li>
+                  <li>Что должен знать и уметь экстрасенс</li>
+                  <li>Основа магической работы</li>
+                  <li>Основные принципы ясновидящего человека</li>
+                  <li>Основные принципы магии</li>
+                  <li>Как правильно погружаться в рабочее состояние экстрасенса</li>
+                </ul>
+              </div>
+              <div class="module">
+                <h4 class="module-title">Техника безопасности и чистки</h4>
+                <div class="row">
+                  <div class="col-md-6">
+                    <h5 class="lesson-number">Урок 2</h5>
+                    <ul class="general-list">
+                      <li>Техника безопасности</li>
+                      <li>Техники защиты</li>
+                      <li>Техники очищения</li>
+                      <li>Зарядка ножа и свечей</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <h5 class="lesson-number">Урок 3</h5>
+                    <ul class="general-list">
+                      <li>Как избавиться  от блоков и блокирующих убеждений мешающих заниматься экстрасенсорикой</li>
+                      <li>Настрой внутренней энергии</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="module">
+                <h4 class="module-title">Развитие экстрасенсорного восприятия</h4>
+                <div class="row">
+                  <div class="col-md-6">
+                    <h5 class="lesson-number">Урок 4</h5>
+                    <ul class="general-list">
+                      <li>Как определить ведущий канал восприятия</li>
+                      <li>Интерпретация чувств</li>
+                      <li>Ассоциативное видение и ассоциативное считывание</li>
+                    </ul>
+                    <h5 class="lesson-number">Урок 5</h5>
+                    <ul class="general-list">
+                      <li>Развитие каналов видения: ясно вижу, ясно слышу, ясно знаю, ясно чувствую</li>
+                      <li>Формирование экстрасенсорной памяти</li>
+                      <li>Экстрасенсорное  и магическое мышление</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <h5 class="lesson-number">Урок 6</h5>
+                    <ul class="general-list">
+                      <li>Законы вселенной применяющиеся в магии и экстрасенсорике</li>
+                      <li>Работа с эгрегорами</li>
+                      <li>Подключение и отключение к эгрегорам</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="module">
+                <h4 class="module-title">Активное считывание  информации</h4>
+                <div class="row">
+                  <div class="col-md-6">
+                    <h5 class="lesson-number">Урок 7</h5>
+                    <ul class="general-list">
+                      <li>Искусство задавать вопросы</li>
+                      <li>Связь с будущим и прогнозировать</li>
+                      <li>Вещие сны</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <h5 class="lesson-number">Урок 8</h5>
+                    <ul class="general-list">
+                      <li>Знаки вселенной</li>
+                      <li>Как отличить свои мысли от подсказок вселенной?</li>
+                      <li>Диагностика и чтение информационного поля</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="module">
+                <h4 class="module-title">Поисковая система экстрасенса</h4>
+                <div class="row">
+                  <div class="col-md-6">
+                    <h5 class="lesson-number">Урок 9</h5>
+                    <ul class="general-list">
+                      <li>Координатное видение</li>
+                      <li>Как находить предметы</li>
+                      <li>Как находить человека</li>
+                      <li>Как отличить живое от мертвого</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <h5 class="lesson-number">Урок 10</h5>
+                    <ul class="general-list">
+                      <li>Как считывать информацию о событиях прошлого</li>
+                      <li>Вспомогательные инструменты: маятники, свечи, весы, дополнительные практики</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="module">
+                <h4 class="module-title">Знакомство и общение с тонким миром </h4>
+                <div class="row">
+                  <div class="col-md-6">
+                    <h5 class="lesson-number">Урок 11</h5>
+                    <ul class="general-list">
+                      <li>Знакомство с наставниками</li>
+                      <li>Как привлечь помощника из тонкого мира</li>
+                      <li>Создание защитной печати</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <h5 class="lesson-number">Урок 12</h5>
+                    <ul class="general-list">
+                      <li>Методы общения  с духами</li>
+                      <li>Как правильно обращаться за помощью</li>
+                      <li>Как распознать сущности и обитателей темного мира</li>
+                      <li>Какие сущности нам помогают и что они могут для нас создать</li>
+                      <li>Сила взгляда, как ее тренировать</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="module">
+                <h4 class="module-title">Работа с энергией, помощь себе и другим</h4>
+                <div class="row">
+                  <div class="col-md-6">
+                    <h5 class="lesson-number">Урок 13</h5>
+                    <ul class="general-list">
+                      <li>Трансформация энергии</li>
+                      <li>Магические посты</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <h5 class="lesson-number">Урок 14</h5>
+                    <ul class="general-list">
+                      <li>Диагностики и снятие вредоносных  воздействий</li>
+                      <li>Диагностики по фото и вещам</li>
+                      <li>Диагностики свечёй</li>
+                      <li>Диагностики яйцом</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="module">
+                <h4 class="module-title">Магия твоего предназначение и раскрытие себя с новыми знаниями</h4>
+                <div class="row">
+                  <div class="col-md-6">
+                    <h5 class="lesson-number">Урок 15</h5>
+                    <ul class="general-list">
+                      <li>Магия твоего предназначение. Как понять свой наилучший вариант развития</li>
+                      <li>Миссия</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <h5 class="lesson-number">Урок 16</h5>
+                    <ul class="general-list">
+                      <li>Секреты консультирования  и работы с людьми</li>
+                      <li>Виды клиентов и как сними работать</li>
+                      <li>Как помогать другим не в ущерб себе</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div><a class="button" href="#prices">Иду на курс</a>
           </div>
         </section>
         <section id="get">
@@ -143,52 +309,53 @@
               <div class="col-md-6">
                 <div class="packet">
                   <div class="packet-head">
-                    <h4 class="packet-head-title"><small>онлайн-марафон</small>Развитие экстрасенсорных способностей</h4>
+                    <h4 class="packet-head-title"><small>пакет</small>Основной</h4>
                   </div>
                   <div class="packet-body">
                     <ul class="general-list">
-                      <li>7 онлайн-уроков</li>
-                      <li>телеграмм-чат</li>
+                      <li>8&nbsp;тематических модулей, в&nbsp;которые входят 16&nbsp;уроков</li>
+                      <li>домашние задания с&nbsp;проверкой кураторами и обратной связью</li>
+                      <li>закрытый чат курса</li>
                     </ul>
                   </div>
                   <div class="packet-footer">
                     <?php if($now < $date){;?>
-                    <p class="cost cost-full">Стоимость:<span>7 900р.</span></p>
-                    <p class="cost cost-sale">Стоимость сегодня:<span>5 900р.</span></p><a class="button" href="https://shop.mv-centr.ru/?r=ordering/cart/as1&id=1594&clean=true&lg=ru" target="_blank" id="link">Оплатить 1 000р.</a>
+                    <p class="cost cost-full">Стоимость:<span>55 900р.</span></p>
+                    <p class="cost cost-sale">Стоимость сегодня:<span>48 900р.</span></p><a class="button button-cost" href="https://shop.mv-centr.ru/?r=ordering/cart/as1&id=1602&clean=true&lg=ru" target="_blank" id="link-1">Оплатить 1 000р.</a>
                     <?php } else {;?>
-                    <p class="cost cost-full">Стоимость:<span class="unbroken">7 900р.</span></p><a class="button" href="https://shop.mv-centr.ru/?r=ordering/cart/as1&id=1591&clean=true&lg=ru" target="_blank">Оплатить</a>
+                    <p class="cost cost-full">Стоимость:<span class="unbroken">55 900р.</span></p><a class="button button-cost" href="https://shop.mv-centr.ru/?r=ordering/cart/as1&id=1599&clean=true&lg=ru" target="_blank">Оплатить</a>
                     <?php };?>
                   </div>
                 </div><?php if($now < $date):?>
                 <div class="prepayment">
-                  <h4 class="prepayment-title">При оплате 1 000р. <br>на счет вам зачисляются дополнительные 2 000р.</h4>
-                  <p class="prepayment-text">Таким образом, в&nbsp;счет оплаты курса у&nbsp;вас засчитывается <span>3 000р.</span><br>Сразу после оплаты, на&nbsp;почту вам придет счет на&nbsp;остаток суммы - <span>4 900р.</span></p>
+                  <p class="prepayment-text">При оплате <span>1 000р. </span><br>на счет вам зачисляются дополнительные <span>6 000р.</span></p>
                 </div>
                 <?php endif;?>
               </div>
               <div class="col-md-6">
                 <div class="packet">
                   <div class="packet-head">
-                    <h4 class="packet-head-title"><small>онлайн-марафон</small>Развитие экстрасенсорных способностей</h4>
+                    <h4 class="packet-head-title"><small>пакет</small>VIP</h4>
                   </div>
                   <div class="packet-body">
                     <ul class="general-list">
-                      <li>7 онлайн-уроков</li>
-                      <li>телеграмм-чат</li>
+                      <li>8&nbsp;тематических модулей, в&nbsp;которые входят 16&nbsp;уроков</li>
+                      <li>домашние задания с&nbsp;проверкой лично Анастасией и обратной связью</li>
+                      <li>закрытый чат курса</li>
+                      <li>дополнительный закрытый чат с&nbsp;Анастасией</li>
                     </ul>
                   </div>
                   <div class="packet-footer">
                     <?php if($now < $date){;?>
-                    <p class="cost cost-full">Стоимость:<span>7 900р.</span></p>
-                    <p class="cost cost-sale">Стоимость сегодня:<span>5 900р.</span></p><a class="button" href="https://shop.mv-centr.ru/?r=ordering/cart/as1&id=1594&clean=true&lg=ru" target="_blank" id="link">Оплатить 1 000р.</a>
+                    <p class="cost cost-full">Стоимость:<span>69 900р.</span></p>
+                    <p class="cost cost-sale">Стоимость сегодня:<span>62 900р.</span></p><a class="button button-cost" href="https://shop.mv-centr.ru/?r=ordering/cart/as1&id=1606&clean=true&lg=ru" target="_blank" id="link-2">Оплатить 1 000р.</a>
                     <?php } else {;?>
-                    <p class="cost cost-full">Стоимость:<span class="unbroken">7 900р.</span></p><a class="button" href="https://shop.mv-centr.ru/?r=ordering/cart/as1&id=1591&clean=true&lg=ru" target="_blank">Оплатить</a>
+                    <p class="cost cost-full">Стоимость:<span class="unbroken">69 900р.</span></p><a class="button button-cost" href="https://shop.mv-centr.ru/?r=ordering/cart/as1&id=1603&clean=true&lg=ru" target="_blank">Оплатить</a>
                     <?php };?>
                   </div>
                 </div><?php if($now < $date):?>
                 <div class="prepayment">
-                  <h4 class="prepayment-title">При оплате 1 000р. <br>на счет вам зачисляются дополнительные 2 000р.</h4>
-                  <p class="prepayment-text">Таким образом, в&nbsp;счет оплаты курса у&nbsp;вас засчитывается <span>3 000р.</span><br>Сразу после оплаты, на&nbsp;почту вам придет счет на&nbsp;остаток суммы - <span>4 900р.</span></p>
+                  <p class="prepayment-text">При оплате <span>1 000р. </span><br>на счет вам зачисляются дополнительные <span>6 000р.</span></p>
                 </div>
                 <?php endif;?>
               </div>
