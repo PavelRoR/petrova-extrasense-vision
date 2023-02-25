@@ -321,14 +321,14 @@
                   <div class="packet-footer">
                     <?php if($now < $date){;?>
                     <p class="cost cost-full">Стоимость:<span>55 900р.</span></p>
-                    <p class="cost cost-sale">Стоимость сегодня:<span>48 900р.</span></p><a class="button button-cost" href="https://shop.mv-centr.ru/?r=ordering/cart/as1&id=1602&clean=true&lg=ru" target="_blank" id="link-1">Оплатить 1 000р.</a>
+                    <p class="cost cost-sale">Стоимость сегодня:<span>48 900р.</span></p><a class="button button-cost" href="https://shop.mv-centr.ru/?r=ordering/cart/as1&id=1602&clean=true&lg=ru" target="_blank" id="link-1">Оплатить 1&nbsp;000р.</a>
                     <?php } else {;?>
                     <p class="cost cost-full">Стоимость:<span class="unbroken">55 900р.</span></p><a class="button button-cost" href="https://shop.mv-centr.ru/?r=ordering/cart/as1&id=1599&clean=true&lg=ru" target="_blank">Оплатить</a>
                     <?php };?>
                   </div>
                 </div><?php if($now < $date):?>
                 <div class="prepayment">
-                  <p class="prepayment-text">При оплате <span>1 000р. </span><br>на счет вам зачисляются дополнительные <span>6 000р.</span></p>
+                  <p class="prepayment-text">При оплате <span>1&nbsp;000р. </span><br>на счет вам зачисляются дополнительные <span>6&nbsp;000р.</span></p>
                 </div>
                 <?php endif;?>
               </div>
@@ -348,14 +348,14 @@
                   <div class="packet-footer">
                     <?php if($now < $date){;?>
                     <p class="cost cost-full">Стоимость:<span>69 900р.</span></p>
-                    <p class="cost cost-sale">Стоимость сегодня:<span>62 900р.</span></p><a class="button button-cost" href="https://shop.mv-centr.ru/?r=ordering/cart/as1&id=1606&clean=true&lg=ru" target="_blank" id="link-2">Оплатить 1 000р.</a>
+                    <p class="cost cost-sale">Стоимость сегодня:<span>62 900р.</span></p><a class="button button-cost" href="https://shop.mv-centr.ru/?r=ordering/cart/as1&id=1606&clean=true&lg=ru" target="_blank" id="link-2">Оплатить 1&nbsp;000р.</a>
                     <?php } else {;?>
                     <p class="cost cost-full">Стоимость:<span class="unbroken">69 900р.</span></p><a class="button button-cost" href="https://shop.mv-centr.ru/?r=ordering/cart/as1&id=1603&clean=true&lg=ru" target="_blank">Оплатить</a>
                     <?php };?>
                   </div>
                 </div><?php if($now < $date):?>
                 <div class="prepayment">
-                  <p class="prepayment-text">При оплате <span>1 000р. </span><br>на счет вам зачисляются дополнительные <span>6 000р.</span></p>
+                  <p class="prepayment-text">При оплате <span>1&nbsp;000р. </span><br>на счет вам зачисляются дополнительные <span>6&nbsp;000р.</span></p>
                 </div>
                 <?php endif;?>
               </div>

@@ -1483,12 +1483,14 @@ header {
 @media screen and (max-width: 991px) {
   .main-title {
     font-size: 70px;
+    margin-bottom: 70px;
   }
 }
 @media screen and (max-width: 690px) {
   .main-title {
     font-size: 50px;
     padding-left: 30px;
+    margin-bottom: 50px;
   }
 }
 @media screen and (max-width: 520px) {
@@ -1594,6 +1596,17 @@ header {
   left: 88px;
   bottom: 33px;
 }
+@media screen and (max-width: 991px) {
+  .main-date-day p span.text {
+    left: 53px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .main-date-day p span.text {
+    left: 42px;
+    bottom: 22px;
+  }
+}
 .main-date-time {
   position: relative;
   margin-top: 20px;
@@ -1657,6 +1670,11 @@ header {
 .main-author-text span {
   display: inline-block;
   color: #f6623b;
+}
+@media screen and (max-width: 386px) {
+  .main-author-text span {
+    display: block;
+  }
 }
 .button-main {
   margin-top: 45px;
@@ -1904,11 +1922,21 @@ header {
 .full-plan-sider {
   margin-bottom: 60px;
   position: relative;
-  padding: 70px 0 0;
+  padding: 70px 2px 0;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+}
+@media screen and (max-width: 650px) {
+  .full-plan-sider {
+    padding: 40px 0 0;
+  }
+}
+@media screen and (max-width: 386px) {
+  .full-plan-sider {
+    padding: 25px 0 0;
+  }
 }
 .lesson .general-list {
   width: 100%;
@@ -1932,6 +1960,16 @@ header {
   position: relative;
   z-index: 60;
 }
+@media screen and (max-width: 650px) {
+  .full-plan-slider-title {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 485px) {
+  .full-plan-slider-title {
+    font-size: 22px;
+  }
+}
 .full-plan-slider-title:hover {
   opacity: 0.5;
 }
@@ -1951,7 +1989,7 @@ header {
   opacity: 0.5;
 }
 .full-plan-slider-titles {
-  left: 7%;
+  left: 90px;
   width: 100%;
   max-width: 1360px;
   margin: 0 auto;
@@ -1959,16 +1997,49 @@ header {
 .full-plan-slider-titles .slick-list {
   overflow: visible;
 }
+@media screen and (max-width: 1300px) {
+  .full-plan-slider-titles {
+    left: 3%;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .full-plan-slider-titles {
+    left: 2%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .full-plan-slider-titles {
+    width: 130%;
+  }
+}
+@media screen and (max-width: 386px) {
+  .full-plan-slider-titles {
+    left: 4%;
+  }
+}
 .module-title {
   font-size: 24px;
   font-weight: bold;
   padding-left: 20px;
   border-left: 10px solid #f6623b;
 }
+@media screen and (max-width: 650px) {
+  .module-title {
+    font-size: 20px;
+    padding-left: 10px;
+    border-left: 5px solid #f6623b;
+  }
+}
 .lesson-number {
   font-size: 22px;
   margin: 50px 0 35px;
   font-weight: bold;
+}
+@media screen and (max-width: 650px) {
+  .lesson-number {
+    margin: 35px 0 20px;
+    font-size: 18px;
+  }
 }
 #get {
   padding: 90px 0;
@@ -2048,6 +2119,7 @@ header {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
+    width: 100%;
   }
 }
 @media screen and (max-width: 650px) {
@@ -2085,6 +2157,11 @@ header {
   border-radius: 5px;
   padding: 40px 30px;
 }
+@media screen and (max-width: 560px) {
+  .packet {
+    padding: 30px 20px;
+  }
+}
 .packet-head-title {
   font-family: 'Gropled', sans-serif;
   font-size: 40px;
@@ -2103,6 +2180,11 @@ header {
 .packet-body {
   padding: 20px 0;
   min-height: 370px;
+}
+@media screen and (max-width: 991px) {
+  .packet-body {
+    min-height: 1px;
+  }
 }
 .packet-footer {
   text-align: center;
@@ -2134,9 +2216,19 @@ header {
   margin-bottom: 35px;
   color: #fff;
 }
+@media screen and (max-width: 991px) {
+  .prepayment {
+    margin-bottom: 50px;
+  }
+}
 .prepayment-text {
   font-size: 26px;
   margin: 20px 0 30px;
+}
+@media screen and (max-width: 485px) {
+  .prepayment-text {
+    font-size: 22px;
+  }
 }
 .prepayment-text span {
   font-weight: bold;
@@ -2154,6 +2246,7 @@ header {
   .timer-title {
     font-size: 26px;
     line-height: 1.2;
+    margin-top: 20px;
   }
 }
 .flip-clock-wrapper {

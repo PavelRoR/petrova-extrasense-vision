@@ -35,24 +35,21 @@
 .full-plan-sider
 	margin-bottom: 60px
 	position relative
-	padding 70px 0 0
+	padding 70px 2px 0
 	top 0
 	left 0
 	width 100%
 	height 100%
+	@media screen and (max-width 650px)
+		padding 40px 0 0
+	@media screen and (max-width 386px)
+		padding 25px 0 0
 .lesson .general-list
 	width 100%
 	max-width 1170px
 	// margin 0 auto
 .slick-dotted.full-plan-sider
 	margin-bottom: 100px
-// .full-plan-slider-titles-container
-// 	width 100%
-// 	max-width 1440px
-// 	margin 0 auto
-// 	left 0
-// 	right 0
-// 	left -42%
 .full-plan-slider-title
 	font-size: 36px
 	font-weight: bold
@@ -66,6 +63,10 @@
 	transition: all .3s ease
 	position relative
 	z-index 60
+	@media screen and (max-width 650px)
+		font-size: 26px
+	@media screen and (max-width 485px)
+		font-size: 22px
 	&:hover
 		opacity .5
 	&.slick-slide
@@ -79,18 +80,33 @@
 				&:hover
 					opacity .5
 	&s
-		left 7%
+		left 90px
 		width 100%
 		max-width 1360px
 		margin 0 auto
 		.slick-list
 			overflow visible
+		@media screen and (max-width 1300px)
+			left 3%
+		@media screen and (max-width 1199px)
+			left 2%
+		@media screen and (max-width 991px)
+			width 130%
+		@media screen and (max-width 386px)
+			left 4%
 .module-title
 	font-size: 24px
 	font-weight: bold
 	padding-left: 20px
 	border-left: 10px solid #F6623B;
+	@media screen and (max-width 650px)
+		font-size: 20px
+		padding-left: 10px
+		border-left: 5px solid #F6623B;
 .lesson-number
 	font-size: 22px
 	margin 50px 0 35px
 	font-weight: bold
+	@media screen and (max-width 650px)
+		margin 35px 0 20px
+		font-size: 18px
